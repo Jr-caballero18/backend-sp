@@ -1,0 +1,9 @@
+namespace backend.DTOs;
+
+public class BrandInsertDto
+{
+    public string Name { get; set; }
+
+        public int SupplierId {get; set;}
+
+}
